@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    background-color: #f6f9f9;
+}
+
+header{
+    padding: 26px 0px;
+    width: 100%;
+    float: left;
+}
+
+/*banner*/
+
+.banner {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    padding: 26px 0px;
+    width: 100%;
+    float: left;
+}
+.banner-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 65%;
+    padding-top: 175px;
+    padding-bottom: 50px;
+}
+.banner-content h2 {
+    color: #fff;
+    font-size: 105px;
+    letter-spacing: 5px;
+}
+.banner-content span{
+        display: block;
+    border-bottom: 3px solid #15a4fa;
+    width: 78%;
+    margin: 2% auto;
+    font-weight: 300;
+}
+.banner-content p {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+button.btn {
+    padding: 9px 17px;
+    border: 1px solid #15a4fa;
+    background: transparent;
+    margin: 31px 0px;
+    color: white;
+    font-size: 16px;
+}
+.fa.fa-angle-down{
+    color: white;
+    
+    padding-bottom: 63px;
+    padding-top: 93px;
+}
+/*simple design*/
+
+.simple-design{
+    
+width: 100%;
+    
+float: left;
+    
+padding: 26px 0px;
+    
+margin: 0 auto;
+    
+text-align: center;
+}
+.simple-design-content{
+    
+
+}
+.simple-design-content h2{
+    
+font-size: 35px;
+}
+.simple-design-content p{
+    
+margin-top: 18px;
+    
+padding-bottom: 95px;
+    
+font-size: 16px;
+    
+
+    
+text-align: center;
+    
+color: #a0a0a0;
+}
+/*icons*/
+
+.icons{
+    
+width: 100%;
+    
+float: left;
+    
+background: white;
+    
+padding: 26px 0px;
+}
+.icon {
+    width: 30%;
+    float: left;
+    padding: 26px 0px;
+    margin: 0px 17px;
+    text-align: center;
+}
+.fa.fa-mobile {
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    color: white;
+    background: rgba(72, 183, 255, 1);
+    padding: 5px;
+}
+.icon h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #2d3950;
+}
+.icon p {
+    font-size: 16px;
+    padding: 10px;
+    color: #999999;
+}
+.fa.fa-paper-plane{
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    color: white;
+    background: rgba(72, 183, 255, 1);
+    padding: 5px;
+}
+.fa.fa-bullhorn{
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    color: white;
+    background: rgba(72, 183, 255, 1);
+    padding: 5px;
+}
+/*gallery*/
+
+.gallery{
+    width: 100%;
+    float: left;
+    padding-top: 68px;
+}
+.gallery-title {
+    
+width: 55%;
+    
+margin: 0 auto;
+    
+text-align: center;
+    
+padding: 71px;
+}
+.gallery-title h2{
+    font-size: 45px;
+}
+.gallery-title p{
+    
+font-size: 16px;    
+margin: 17px 0px;
+    
+color: #a0a0a0;
+}
+.gallery-one{
+    
+width: 30.33%;
+    
+float: left;
+    
+margin: 4px 10px;
+}
+.gallery-one img{
+    
+}
+/*contact us*/
+
+.contact {
+    width: 100%;
+    float: left;
+    padding: 31px 0;
+    background: url(../img/stay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*contact*/
+.contact-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 26px 0px;
+}
+.contact-title h2{
+    font-size: 35px;
+}
+.contact-title p{
+    font-size: 16px;
+}
+.form-main{
+    width: 50%;
+    padding-bottom: 68px;
+    margin: 0 auto;
+}
+.form-cntrl {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 10px 0;
+    background: transparent;
+    outline: none;
+    border: 1px solid #999999;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+.label{
+    color: white;
+    
+}
+
+.checkbox{
+    margin-right: 10px;
+    width: 4%;
+}
+.btn-label{
+    
+margin: 10px 0px 1px 297px;
+    
+padding: 8px 30px;
+    
+color: #fff;
+    
+border-radius: 5px;
+    
+border-color: #15a4fa;
+    
+
+    
+background: transparent;
+}
+/*footer*/
+
+.foot-icons {
+    width: 100%;
+    float: left;
+    padding: 26px 0;
+}
+
+.copyright {
+    width: 74%;
+    float: left;
+    color: #999999;
+    font-size: 16px;
+    padding: 20px;
+}
+.social-icons {
+    width: 21%;
+    float: left;
+}
+.social-icons a i {
+    background-color: #15a4fa;
+    color: white;
+    padding: 20px 20px;
+    margin-right: 2px;
+    font-size: 16px;
+}
+.social-icons a i:hover{
+    background-color: maroon;
+    color: white;
+}
+
